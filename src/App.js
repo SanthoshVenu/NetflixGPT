@@ -1,12 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Body from "./component/Body";
 
 function App() {
-  return (
-    <div className="text-red-700 font-bold text-3xl">
-      Hi.. Santhosh Venugopal..!
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
